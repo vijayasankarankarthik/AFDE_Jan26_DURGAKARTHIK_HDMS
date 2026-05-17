@@ -1,0 +1,12 @@
+# ──────────────────────────────────────────────────────────
+# backend/requirements.txt
+# ──────────────────────────────────────────────────────────
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+pydantic==2.10.6
+pydantic-settings==2.7.1
+python-dotenv==1.0.0
+alembic==1.12.1
+python-multipart==0.0.6

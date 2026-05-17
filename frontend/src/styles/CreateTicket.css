@@ -1,0 +1,252 @@
+/* ============================================================
+   CreateTicket.css — Create ticket form page styles.
+   ============================================================ */
+
+.create-ticket-page {
+  /* uses .page-container from globals */
+}
+
+/* ─── Form layout ────────────────────────────────────────── */
+.create-ticket-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 960px) {
+  .create-ticket-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ─── Form card ──────────────────────────────────────────── */
+.form-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.form-card-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--border);
+  background: #fafafa;
+}
+
+.form-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.form-card-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 3px;
+}
+
+.form-card-body {
+  padding: 28px;
+}
+
+/* ─── Field grid ─────────────────────────────────────────── */
+.form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 640px) {
+  .form-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-grid-full {
+  grid-column: 1 / -1;
+}
+
+/* ─── Priority radio group ───────────────────────────────── */
+.priority-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .priority-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.priority-radio {
+  display: none;
+}
+
+.priority-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: center;
+  background: var(--surface);
+}
+
+.priority-label:hover {
+  border-color: var(--border-dark);
+  background: var(--surface-hover);
+}
+
+.priority-label-icon {
+  font-size: 1.25rem;
+}
+
+.priority-label-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Selected states */
+.priority-radio[value="Low"]:checked ~ .priority-label-low,
+.priority-label-low.selected {
+  border-color: var(--priority-low);
+  background: var(--priority-low-bg);
+  color: var(--priority-low);
+}
+
+.priority-radio[value="Medium"]:checked ~ .priority-label-medium,
+.priority-label-medium.selected {
+  border-color: var(--priority-medium);
+  background: var(--priority-medium-bg);
+  color: var(--priority-medium);
+}
+
+.priority-radio[value="High"]:checked ~ .priority-label-high,
+.priority-label-high.selected {
+  border-color: var(--priority-high);
+  background: var(--priority-high-bg);
+  color: var(--priority-high);
+}
+
+.priority-radio[value="Critical"]:checked ~ .priority-label-critical,
+.priority-label-critical.selected {
+  border-color: var(--priority-critical);
+  background: var(--priority-critical-bg);
+  color: var(--priority-critical);
+}
+
+/* ─── Form footer ────────────────────────────────────────── */
+.form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 20px 28px;
+  border-top: 1px solid var(--border);
+  background: #fafafa;
+}
+
+/* ─── Success state ──────────────────────────────────────── */
+.success-card {
+  background: var(--surface);
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-lg);
+  padding: 48px 40px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.success-icon {
+  width: 72px;
+  height: 72px;
+  background: #f0fdf4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 20px;
+}
+
+.success-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.success-ticket-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.success-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+/* ─── Side helper panel ──────────────────────────────────── */
+.create-ticket-helper {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+}
+
+.helper-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.helper-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.helper-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.helper-item-icon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  background: var(--primary-subtle);
+  color: var(--primary);
+  border-radius: var(--radius-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 1px;
+}

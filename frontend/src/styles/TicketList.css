@@ -1,0 +1,59 @@
+/* ============================================================
+   TicketList.css — Ticket listing page styles.
+   ============================================================ */
+
+.ticket-list-page {
+  /* uses .page-container from globals */
+}
+
+/* ─── Toolbar (search + filters + actions) ───────────────── */
+.ticket-list-toolbar {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.toolbar-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.toolbar-filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tickets-count-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+  margin-top: 12px;
+}
+
+.tickets-count-text {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.tickets-count-text strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* ─── Column header sort indicator ──────────────────────── */
+.th-sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.th-sortable:hover {
+  color: var(--primary);
+}
