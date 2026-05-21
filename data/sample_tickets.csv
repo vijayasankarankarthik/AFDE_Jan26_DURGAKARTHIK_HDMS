@@ -1,0 +1,221 @@
+employee_name,department,issue_category,description,priority,status,resolution_notes,created_at,updated_at
+Eva Brown,HR,Hardware,USB port not recognising devices,High,Open,,2023-03-31T16:00:00Z,2023-04-02T23:00:00Z
+Tina Smith,IT,Hardware,USB port not recognising devices,Low,Open,,2023-07-23T18:00:00Z,2023-07-26T16:00:00Z
+Alice Garcia,Legal,Access & Permissions,User cannot log in to HR portal,Medium,In Progress,,2023-12-15T11:00:00Z,2023-12-16T07:00:00Z
+Leo Taylor,Marketing,VPN & Remote Access,Cannot access internal wiki from home,Low,In Progress,,2023-09-28T07:00:00Z,2023-09-30T18:00:00Z
+Uma Taylor,HR,Printer,Printed pages have horizontal streaks,Low,In Progress,,2023-07-16T18:00:00Z,2023-07-17T03:00:00Z
+Hal Brown,IT,Access & Permissions,User cannot log in to HR portal,High,Closed,User training session scheduled and completed.,2023-10-12T14:00:00Z,2023-10-23T14:00:00Z
+Ivy Williams,Sales,Network,Ping timeouts to internal server,Medium,Open,,2024-10-12T09:00:00Z,2024-10-15T06:00:00Z
+Uma Davis,Marketing,Network,Slow internet speed on wired connection,Medium,In Progress,,2023-02-27T10:00:00Z,2023-02-27T15:00:00Z
+Sam Thomas,Sales,Printer,Print jobs stuck in spooler,Medium,Open,,2024-11-02T14:00:00Z,2024-11-04T17:00:00Z
+Rachel Wilson,Engineering,Network,Ping timeouts to internal server,Medium,Open,,2024-03-14T16:00:00Z,2024-03-16T20:00:00Z
+Paul Williams,Sales,Access & Permissions,Cannot access SharePoint document library,Critical,Open,,2023-04-23T09:00:00Z,2023-04-24T06:00:00Z
+Olivia Wilson,Legal,Software,Application fails to launch after update,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-01-12T17:00:00Z,2023-01-24T17:00:00Z
+Olivia Smith,Operations,VPN & Remote Access,Two-factor authentication not prompting,Low,In Progress,,2024-05-27T09:00:00Z,2024-05-30T02:00:00Z
+Grace Jones,HR,Email & Communication,Shared mailbox not showing in Outlook,High,Resolved,Configuration restored from backup. System verified stable.,2023-06-15T15:00:00Z,2023-06-28T15:00:00Z
+Leo Anderson,IT,VPN & Remote Access,Remote desktop connection drops randomly,Medium,Open,,2023-03-01T10:00:00Z,2023-03-01T21:00:00Z
+Rachel Jones,HR,Security,Laptop reported as lost — remote wipe needed,High,Closed,Remote session held; settings corrected and user confirmed fix.,2024-11-06T14:00:00Z,2024-11-15T14:00:00Z
+Grace Miller,Operations,Other,Standing desk controller unresponsive,High,In Progress,,2024-02-13T17:00:00Z,2024-02-15T17:00:00Z
+Carol Thomas,Engineering,Other,Conference room AV system not working,Medium,Open,,2024-08-25T15:00:00Z,2024-08-26T21:00:00Z
+Hal Williams,Marketing,Hardware,Laptop screen flickering intermittently,Low,Resolved,Remote session held; settings corrected and user confirmed fix.,2023-12-05T08:00:00Z,2023-12-14T08:00:00Z
+Sam Lee,Operations,Security,Laptop reported as lost — remote wipe needed,Medium,Open,,2024-04-29T13:00:00Z,2024-04-30T14:00:00Z
+Noah Martin,HR,Software,Microsoft Word crashes on opening large files,High,In Progress,,2024-11-20T17:00:00Z,2024-11-21T06:00:00Z
+David Davis,IT,Printer,Print jobs stuck in spooler,High,Closed,Remote session held; settings corrected and user confirmed fix.,2023-07-14T15:00:00Z,2023-07-22T15:00:00Z
+Carol Martin,Legal,Network,Ping timeouts to internal server,Medium,Open,,2023-04-11T07:00:00Z,2023-04-14T05:00:00Z
+Frank Jackson,IT,Software,Outlook stuck in offline mode,Critical,Closed,Account permissions updated by domain admin. Access confirmed.,2024-05-07T10:00:00Z,2024-05-21T10:00:00Z
+Ivy Martin,IT,Network,Slow internet speed on wired connection,Medium,Closed,User training session scheduled and completed.,2024-03-09T18:00:00Z,2024-03-21T18:00:00Z
+Bob Johnson,Engineering,Network,Slow internet speed on wired connection,Low,Open,,2023-02-28T07:00:00Z,2023-03-02T21:00:00Z
+Frank Williams,Finance,Hardware,USB port not recognising devices,Critical,Open,,2023-03-11T17:00:00Z,2023-03-13T00:00:00Z
+Sam Johnson,Legal,Software,Application fails to launch after update,Critical,Resolved,Configuration restored from backup. System verified stable.,2023-03-25T13:00:00Z,2023-04-05T13:00:00Z
+Hal Wilson,Sales,Email & Communication,Out-of-office not activating,Medium,Resolved,Replaced faulty hardware component. Device functioning correctly.,2023-05-15T17:00:00Z,2023-05-26T17:00:00Z
+Alice Martin,Engineering,VPN & Remote Access,Cannot access internal wiki from home,Critical,Closed,Configuration restored from backup. System verified stable.,2024-07-30T08:00:00Z,2024-08-01T08:00:00Z
+Carol Davis,Marketing,Other,Standing desk controller unresponsive,Medium,Closed,User training session scheduled and completed.,2023-10-19T09:00:00Z,2023-10-27T09:00:00Z
+Jack Brown,Operations,Other,Badge reader on floor 3 not scanning,Low,Closed,Escalated to vendor support; patch applied. Issue closed.,2023-09-28T08:00:00Z,2023-09-30T08:00:00Z
+Karen Miller,Finance,Email & Communication,Shared mailbox not showing in Outlook,Medium,Open,,2024-06-01T14:00:00Z,2024-06-02T23:00:00Z
+Bob Smith,IT,Software,Excel formula returning #REF! error,High,Closed,Remote session held; settings corrected and user confirmed fix.,2023-05-14T17:00:00Z,2023-05-19T17:00:00Z
+David Williams,Engineering,Other,Badge reader on floor 3 not scanning,High,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-07-12T07:00:00Z,2024-07-26T07:00:00Z
+Zach Johnson,Finance,Printer,Unable to add network printer,Low,In Progress,,2023-08-04T17:00:00Z,2023-08-06T01:00:00Z
+Noah Jones,HR,VPN & Remote Access,Remote desktop connection drops randomly,High,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-06-16T09:00:00Z,2023-06-23T09:00:00Z
+Victor Davis,Finance,VPN & Remote Access,Two-factor authentication not prompting,High,In Progress,,2023-06-13T18:00:00Z,2023-06-14T08:00:00Z
+Olivia Taylor,Legal,Hardware,Mouse double-clicking on single click,High,Open,,2023-08-22T10:00:00Z,2023-08-22T14:00:00Z
+Yara Wilson,Marketing,Printer,Unable to add network printer,Medium,Closed,Escalated to vendor support; patch applied. Issue closed.,2024-10-18T15:00:00Z,2024-10-25T15:00:00Z
+Frank Wilson,Sales,Hardware,Laptop screen flickering intermittently,Low,Closed,Replaced faulty hardware component. Device functioning correctly.,2023-04-22T16:00:00Z,2023-04-29T16:00:00Z
+Mia Miller,Sales,Printer,Unable to add network printer,High,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-02-15T18:00:00Z,2023-02-22T18:00:00Z
+Karen Thomas,Marketing,VPN & Remote Access,Cisco AnyConnect fails authentication,Medium,Closed,Escalated to vendor support; patch applied. Issue closed.,2023-11-04T15:00:00Z,2023-11-09T15:00:00Z
+Eva Miller,Legal,VPN & Remote Access,VPN certificate expired notification,Medium,In Progress,,2024-11-11T13:00:00Z,2024-11-12T12:00:00Z
+Jack Miller,Operations,Printer,Paper jam sensor triggered with no jam,Medium,Open,,2024-08-16T16:00:00Z,2024-08-18T10:00:00Z
+Paul Garcia,Engineering,Security,Suspected phishing email received,Medium,Open,,2023-10-18T15:00:00Z,2023-10-20T10:00:00Z
+Grace Jones,HR,Access & Permissions,Cannot access SharePoint document library,High,Open,,2023-02-17T10:00:00Z,2023-02-19T23:00:00Z
+Grace Moore,HR,Security,Unauthorised login attempt notification,Medium,Resolved,Escalated to vendor support; patch applied. Issue closed.,2024-02-14T10:00:00Z,2024-02-17T10:00:00Z
+Zach Martin,IT,Software,Microsoft Word crashes on opening large files,High,Open,,2024-07-24T10:00:00Z,2024-07-25T02:00:00Z
+Rachel Thomas,Engineering,Network,Cannot access shared network drives,High,Resolved,Account permissions updated by domain admin. Access confirmed.,2024-09-19T18:00:00Z,2024-09-28T18:00:00Z
+Ivy Davis,Engineering,Network,Slow internet speed on wired connection,High,Resolved,Remote session held; settings corrected and user confirmed fix.,2024-06-17T14:00:00Z,2024-06-28T14:00:00Z
+Ivy Thomas,Operations,Security,Antivirus definition update failing,Low,In Progress,,2024-07-07T08:00:00Z,2024-07-08T02:00:00Z
+Grace Williams,Finance,Access & Permissions,User cannot log in to HR portal,Medium,Open,,2024-02-22T12:00:00Z,2024-02-25T10:00:00Z
+Mia Smith,Engineering,Printer,Printed pages have horizontal streaks,Low,Closed,Replaced faulty hardware component. Device functioning correctly.,2024-01-25T14:00:00Z,2024-01-26T14:00:00Z
+Noah Davis,Operations,Printer,Paper jam sensor triggered with no jam,High,Closed,Account permissions updated by domain admin. Access confirmed.,2023-08-13T11:00:00Z,2023-08-20T11:00:00Z
+Mia Garcia,IT,Printer,Paper jam sensor triggered with no jam,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-05-11T16:00:00Z,2023-05-20T16:00:00Z
+Olivia Garcia,Legal,Hardware,Laptop screen flickering intermittently,Low,In Progress,,2023-09-24T13:00:00Z,2023-09-26T07:00:00Z
+Mia Wilson,Marketing,Security,Unauthorised login attempt notification,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-09-16T08:00:00Z,2023-09-24T08:00:00Z
+Uma Johnson,IT,VPN & Remote Access,Cisco AnyConnect fails authentication,Medium,Open,,2023-09-11T10:00:00Z,2023-09-11T13:00:00Z
+Sam Miller,Finance,Access & Permissions,User cannot log in to HR portal,Low,Resolved,Configuration restored from backup. System verified stable.,2023-09-20T12:00:00Z,2023-09-23T12:00:00Z
+Alice Anderson,HR,Network,Ping timeouts to internal server,Critical,Open,,2024-11-24T13:00:00Z,2024-11-26T16:00:00Z
+Hal Brown,Marketing,Software,Excel formula returning #REF! error,Medium,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-12-01T16:00:00Z,2024-12-14T16:00:00Z
+Carol Thomas,IT,VPN & Remote Access,Cisco AnyConnect fails authentication,Medium,Resolved,Account permissions updated by domain admin. Access confirmed.,2024-03-06T14:00:00Z,2024-03-08T14:00:00Z
+Xander Wilson,Sales,Security,USB drive blocked by security policy,High,In Progress,,2024-07-05T14:00:00Z,2024-07-08T02:00:00Z
+Carol Wilson,Legal,Email & Communication,Out-of-office not activating,Medium,Open,,2023-09-07T14:00:00Z,2023-09-09T15:00:00Z
+Paul Miller,Sales,Hardware,Mouse double-clicking on single click,Medium,In Progress,,2023-09-22T12:00:00Z,2023-09-24T00:00:00Z
+Carol Davis,Operations,Other,Coffee machine Wi-Fi still connected to old network,Low,Closed,Remote session held; settings corrected and user confirmed fix.,2024-05-15T15:00:00Z,2024-05-28T15:00:00Z
+Jack Davis,Engineering,Security,Unauthorised login attempt notification,Medium,Open,,2023-09-07T11:00:00Z,2023-09-09T11:00:00Z
+Xander Thomas,Engineering,Other,Standing desk controller unresponsive,Medium,In Progress,,2024-04-09T11:00:00Z,2024-04-11T03:00:00Z
+David Garcia,Operations,Access & Permissions,Password reset link not received,Low,Open,,2023-08-10T18:00:00Z,2023-08-13T08:00:00Z
+Grace Anderson,Operations,Other,Badge reader on floor 3 not scanning,Medium,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-01-05T09:00:00Z,2024-01-10T09:00:00Z
+Jack Jones,Finance,Email & Communication,Out-of-office not activating,Low,Open,,2023-04-16T07:00:00Z,2023-04-17T20:00:00Z
+Bob Wilson,Engineering,Security,Unauthorised login attempt notification,Medium,Open,,2023-04-27T08:00:00Z,2023-04-29T12:00:00Z
+Eva Jones,Engineering,Software,Application fails to launch after update,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-11-08T08:00:00Z,2023-11-12T08:00:00Z
+Olivia Anderson,Legal,Access & Permissions,Missing permissions on project folder,High,In Progress,,2024-03-15T11:00:00Z,2024-03-15T19:00:00Z
+Carol Garcia,HR,Access & Permissions,Password reset link not received,High,In Progress,,2023-06-27T15:00:00Z,2023-06-28T01:00:00Z
+Paul Anderson,Finance,Hardware,Laptop screen flickering intermittently,Medium,Resolved,Replaced faulty hardware component. Device functioning correctly.,2023-08-26T11:00:00Z,2023-09-07T11:00:00Z
+Zach Miller,Engineering,Software,Outlook stuck in offline mode,High,Closed,Escalated to vendor support; patch applied. Issue closed.,2023-04-28T15:00:00Z,2023-05-02T15:00:00Z
+Frank Anderson,Finance,Email & Communication,Teams messages delayed by several minutes,High,Open,,2024-08-05T11:00:00Z,2024-08-07T20:00:00Z
+Ivy Lee,HR,Security,Unauthorised login attempt notification,High,Resolved,Account permissions updated by domain admin. Access confirmed.,2023-03-24T16:00:00Z,2023-03-25T16:00:00Z
+Victor Smith,Sales,Email & Communication,Shared mailbox not showing in Outlook,Low,Open,,2024-08-13T07:00:00Z,2024-08-14T06:00:00Z
+Frank Jackson,Engineering,Other,Coffee machine Wi-Fi still connected to old network,High,Closed,Account permissions updated by domain admin. Access confirmed.,2023-04-04T14:00:00Z,2023-04-10T14:00:00Z
+Karen Jackson,Sales,VPN & Remote Access,VPN certificate expired notification,High,Closed,User training session scheduled and completed.,2023-10-23T17:00:00Z,2023-10-30T17:00:00Z
+David Moore,IT,Security,USB drive blocked by security policy,Low,In Progress,,2023-01-02T17:00:00Z,2023-01-05T15:00:00Z
+Tina Lee,Engineering,Printer,Paper jam sensor triggered with no jam,Low,Resolved,Configuration restored from backup. System verified stable.,2023-02-22T10:00:00Z,2023-02-27T10:00:00Z
+David Smith,Finance,Email & Communication,Teams messages delayed by several minutes,Medium,Resolved,Replaced faulty hardware component. Device functioning correctly.,2023-09-03T18:00:00Z,2023-09-06T18:00:00Z
+David Martin,IT,Other,Conference room AV system not working,Medium,Open,,2024-10-25T09:00:00Z,2024-10-28T01:00:00Z
+Paul Lee,Operations,Other,Badge reader on floor 3 not scanning,High,In Progress,,2024-04-12T15:00:00Z,2024-04-13T10:00:00Z
+Eva Williams,Legal,Access & Permissions,Account locked after failed login attempts,Critical,Resolved,Configuration restored from backup. System verified stable.,2024-02-29T12:00:00Z,2024-03-13T12:00:00Z
+Sam Lee,Operations,Hardware,Keyboard keys not registering presses,Medium,In Progress,,2024-04-02T15:00:00Z,2024-04-05T05:00:00Z
+Olivia Thomas,Sales,VPN & Remote Access,Remote desktop connection drops randomly,Medium,Resolved,Remote session held; settings corrected and user confirmed fix.,2023-09-02T16:00:00Z,2023-09-09T16:00:00Z
+Zach Moore,Legal,Hardware,Monitor not displaying correct resolution,Medium,Resolved,Account permissions updated by domain admin. Access confirmed.,2024-11-10T17:00:00Z,2024-11-13T17:00:00Z
+David Martin,IT,Network,Unable to connect to company WiFi,Medium,Resolved,Escalated to vendor support; patch applied. Issue closed.,2024-06-22T14:00:00Z,2024-06-23T14:00:00Z
+Carol Lee,Finance,Printer,Unable to add network printer,High,Closed,Account permissions updated by domain admin. Access confirmed.,2023-12-13T16:00:00Z,2023-12-25T16:00:00Z
+Mia Thomas,HR,VPN & Remote Access,VPN certificate expired notification,High,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-07-08T07:00:00Z,2024-07-18T07:00:00Z
+Noah Brown,Marketing,Email & Communication,Emails not syncing on mobile device,Critical,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-03-30T09:00:00Z,2024-04-11T09:00:00Z
+Leo Taylor,IT,Hardware,Monitor not displaying correct resolution,Medium,Open,,2023-05-30T10:00:00Z,2023-06-02T06:00:00Z
+Mia Davis,Legal,Network,Cannot access shared network drives,Low,Open,,2024-08-20T09:00:00Z,2024-08-21T15:00:00Z
+Zach Martin,Engineering,Email & Communication,Shared mailbox not showing in Outlook,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-11-24T15:00:00Z,2024-11-27T15:00:00Z
+Noah Wilson,Engineering,VPN & Remote Access,VPN certificate expired notification,Critical,In Progress,,2023-11-06T10:00:00Z,2023-11-08T12:00:00Z
+Sam Anderson,Engineering,Software,Excel formula returning #REF! error,Medium,Resolved,Replaced faulty hardware component. Device functioning correctly.,2023-01-23T17:00:00Z,2023-01-30T17:00:00Z
+Jack Davis,IT,Hardware,USB port not recognising devices,Critical,Resolved,Remote session held; settings corrected and user confirmed fix.,2023-12-27T10:00:00Z,2024-01-07T10:00:00Z
+Uma Johnson,Operations,Network,Slow internet speed on wired connection,High,Closed,Replaced faulty hardware component. Device functioning correctly.,2024-03-27T07:00:00Z,2024-04-06T07:00:00Z
+Noah Garcia,Finance,Software,Adobe Acrobat freezes when printing,Critical,In Progress,,2023-05-16T15:00:00Z,2023-05-18T14:00:00Z
+Paul Anderson,Operations,Network,Slow internet speed on wired connection,Medium,Closed,Remote session held; settings corrected and user confirmed fix.,2023-04-28T14:00:00Z,2023-04-30T14:00:00Z
+Leo Williams,Marketing,Printer,Paper jam sensor triggered with no jam,Critical,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-01-15T11:00:00Z,2023-01-24T11:00:00Z
+Sam Moore,Engineering,VPN & Remote Access,Two-factor authentication not prompting,High,Resolved,Account permissions updated by domain admin. Access confirmed.,2023-04-21T17:00:00Z,2023-04-25T17:00:00Z
+Uma Williams,IT,Other,Coffee machine Wi-Fi still connected to old network,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-11-06T17:00:00Z,2023-11-13T17:00:00Z
+Paul Brown,Finance,Hardware,Laptop screen flickering intermittently,Critical,In Progress,,2023-08-29T15:00:00Z,2023-08-30T09:00:00Z
+Wendy Jackson,Legal,Security,USB drive blocked by security policy,Medium,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-06-08T13:00:00Z,2023-06-19T13:00:00Z
+Wendy Taylor,Engineering,Printer,Print jobs stuck in spooler,Critical,In Progress,,2024-03-30T14:00:00Z,2024-03-31T21:00:00Z
+Uma Taylor,Sales,Software,Microsoft Word crashes on opening large files,Critical,In Progress,,2024-02-12T11:00:00Z,2024-02-13T12:00:00Z
+Uma Smith,HR,Security,Suspected phishing email received,Low,Open,,2023-12-08T10:00:00Z,2023-12-09T03:00:00Z
+Sam Miller,Marketing,Software,Adobe Acrobat freezes when printing,High,Resolved,Configuration restored from backup. System verified stable.,2023-12-03T09:00:00Z,2023-12-16T09:00:00Z
+Eva Wilson,IT,Email & Communication,Calendar invites not sending to external recipients,High,Open,,2023-04-23T17:00:00Z,2023-04-23T21:00:00Z
+Sam Thomas,Finance,Hardware,Laptop screen flickering intermittently,Medium,Resolved,Remote session held; settings corrected and user confirmed fix.,2023-06-28T11:00:00Z,2023-06-29T11:00:00Z
+Olivia Taylor,Legal,Other,Ergonomic chair request,Low,Open,,2024-08-30T08:00:00Z,2024-09-01T18:00:00Z
+Victor Anderson,Marketing,Hardware,Monitor not displaying correct resolution,High,Closed,Account permissions updated by domain admin. Access confirmed.,2024-10-20T07:00:00Z,2024-10-21T07:00:00Z
+Olivia Williams,Legal,Printer,Printer showing offline in queue,High,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-11-26T16:00:00Z,2023-11-29T16:00:00Z
+Wendy Thomas,Finance,Email & Communication,Out-of-office not activating,High,Resolved,Account permissions updated by domain admin. Access confirmed.,2024-09-03T15:00:00Z,2024-09-08T15:00:00Z
+Uma Miller,Legal,Software,Outlook stuck in offline mode,High,Open,,2024-04-07T10:00:00Z,2024-04-09T15:00:00Z
+Karen Jackson,Sales,Security,Antivirus definition update failing,Medium,Resolved,Remote session held; settings corrected and user confirmed fix.,2024-11-12T11:00:00Z,2024-11-18T11:00:00Z
+Noah Brown,Engineering,Software,Excel formula returning #REF! error,Low,Open,,2023-05-14T15:00:00Z,2023-05-14T23:00:00Z
+Yara Jackson,Sales,Software,Microsoft Word crashes on opening large files,Medium,Closed,Replaced faulty hardware component. Device functioning correctly.,2023-10-22T16:00:00Z,2023-10-27T16:00:00Z
+Hal Brown,HR,Other,Standing desk controller unresponsive,Medium,Resolved,User training session scheduled and completed.,2024-07-23T12:00:00Z,2024-07-25T12:00:00Z
+Yara Smith,Operations,Access & Permissions,Missing permissions on project folder,High,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-11-04T18:00:00Z,2024-11-09T18:00:00Z
+Karen Taylor,Finance,Email & Communication,Emails not syncing on mobile device,High,In Progress,,2023-07-05T09:00:00Z,2023-07-07T13:00:00Z
+Carol Miller,HR,Network,Cannot access shared network drives,High,Closed,Remote session held; settings corrected and user confirmed fix.,2024-03-05T14:00:00Z,2024-03-11T14:00:00Z
+Sam Williams,Sales,Email & Communication,Emails not syncing on mobile device,High,Resolved,Configuration restored from backup. System verified stable.,2023-06-09T09:00:00Z,2023-06-22T09:00:00Z
+Paul Martin,IT,Software,Outlook stuck in offline mode,Medium,Resolved,Configuration restored from backup. System verified stable.,2023-10-07T10:00:00Z,2023-10-20T10:00:00Z
+Victor Lee,HR,VPN & Remote Access,Cannot access internal wiki from home,Medium,In Progress,,2024-11-14T11:00:00Z,2024-11-14T17:00:00Z
+Grace Anderson,Marketing,Printer,Print jobs stuck in spooler,Critical,Open,,2023-05-21T11:00:00Z,2023-05-23T01:00:00Z
+Frank Jones,Sales,Software,Outlook stuck in offline mode,Low,Resolved,Configuration restored from backup. System verified stable.,2024-06-29T18:00:00Z,2024-07-03T18:00:00Z
+Noah Smith,Sales,Software,Outlook stuck in offline mode,Medium,Resolved,Account permissions updated by domain admin. Access confirmed.,2023-03-21T12:00:00Z,2023-03-31T12:00:00Z
+Karen Garcia,Legal,Printer,Printed pages have horizontal streaks,Medium,In Progress,,2024-04-16T18:00:00Z,2024-04-18T17:00:00Z
+Sam Moore,HR,Printer,Printed pages have horizontal streaks,High,Open,,2023-03-22T13:00:00Z,2023-03-24T05:00:00Z
+Quinn Brown,Sales,Access & Permissions,Missing permissions on project folder,Medium,Open,,2024-06-06T10:00:00Z,2024-06-08T07:00:00Z
+Grace Garcia,Sales,Network,Ping timeouts to internal server,Medium,Open,,2023-06-06T17:00:00Z,2023-06-07T03:00:00Z
+Sam Martin,Finance,Security,USB drive blocked by security policy,Medium,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-10-20T17:00:00Z,2024-10-30T17:00:00Z
+Uma Anderson,Sales,Network,Slow internet speed on wired connection,Medium,Resolved,Configuration restored from backup. System verified stable.,2024-08-28T07:00:00Z,2024-09-03T07:00:00Z
+Leo Anderson,HR,Email & Communication,Emails not syncing on mobile device,Medium,Open,,2024-10-22T08:00:00Z,2024-10-25T01:00:00Z
+Xander Johnson,Legal,Security,Unauthorised login attempt notification,Medium,Closed,Replaced faulty hardware component. Device functioning correctly.,2024-08-08T17:00:00Z,2024-08-12T17:00:00Z
+David Thomas,Engineering,Other,Conference room AV system not working,Low,Open,,2024-05-31T17:00:00Z,2024-06-01T16:00:00Z
+Quinn Garcia,IT,Access & Permissions,Account locked after failed login attempts,High,Closed,Account permissions updated by domain admin. Access confirmed.,2024-01-17T11:00:00Z,2024-01-24T11:00:00Z
+Carol Thomas,Sales,Hardware,Laptop screen flickering intermittently,High,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-07-25T17:00:00Z,2024-08-01T17:00:00Z
+Eva Taylor,Operations,Network,Slow internet speed on wired connection,Medium,Resolved,Account permissions updated by domain admin. Access confirmed.,2024-11-02T18:00:00Z,2024-11-13T18:00:00Z
+Zach Thomas,Finance,Software,Adobe Acrobat freezes when printing,Medium,In Progress,,2024-11-17T18:00:00Z,2024-11-20T14:00:00Z
+Jack Garcia,HR,Printer,Print jobs stuck in spooler,Medium,Open,,2023-12-16T14:00:00Z,2023-12-17T15:00:00Z
+Zach Brown,Marketing,Network,Ping timeouts to internal server,Low,In Progress,,2024-07-06T18:00:00Z,2024-07-09T14:00:00Z
+Tina Moore,IT,VPN & Remote Access,Remote desktop connection drops randomly,High,Resolved,Escalated to vendor support; patch applied. Issue closed.,2023-06-16T09:00:00Z,2023-06-30T09:00:00Z
+Xander Davis,Finance,Security,Unauthorised login attempt notification,Low,In Progress,,2024-09-17T11:00:00Z,2024-09-19T21:00:00Z
+Zach Lee,Marketing,Other,Badge reader on floor 3 not scanning,Medium,Closed,Account permissions updated by domain admin. Access confirmed.,2024-01-12T17:00:00Z,2024-01-22T17:00:00Z
+Noah Garcia,Engineering,Email & Communication,Calendar invites not sending to external recipients,High,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-09-11T09:00:00Z,2024-09-25T09:00:00Z
+David Brown,IT,Security,Antivirus definition update failing,High,Resolved,Account permissions updated by domain admin. Access confirmed.,2023-03-27T09:00:00Z,2023-04-01T09:00:00Z
+Olivia Taylor,Finance,Printer,Printer showing offline in queue,Low,Closed,Configuration restored from backup. System verified stable.,2024-02-29T07:00:00Z,2024-03-07T07:00:00Z
+Hal Smith,Sales,Access & Permissions,Account locked after failed login attempts,Medium,Open,,2023-04-12T18:00:00Z,2023-04-14T13:00:00Z
+Paul Jones,Finance,Network,Cannot access shared network drives,Low,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-04-04T16:00:00Z,2024-04-05T16:00:00Z
+Xander Jackson,IT,Email & Communication,Emails not syncing on mobile device,Medium,Open,,2023-10-23T10:00:00Z,2023-10-25T01:00:00Z
+Tina Martin,HR,Hardware,Laptop screen flickering intermittently,Medium,Resolved,Configuration restored from backup. System verified stable.,2023-04-24T14:00:00Z,2023-05-04T14:00:00Z
+Jack Jackson,IT,Other,Conference room AV system not working,Medium,Resolved,Configuration restored from backup. System verified stable.,2024-09-21T12:00:00Z,2024-09-25T12:00:00Z
+Leo Williams,Legal,Network,Ping timeouts to internal server,High,Open,,2024-07-11T15:00:00Z,2024-07-14T08:00:00Z
+Mia Taylor,IT,Printer,Unable to add network printer,High,Open,,2023-01-17T12:00:00Z,2023-01-17T21:00:00Z
+Yara Thomas,Sales,Access & Permissions,Password reset link not received,High,Resolved,Replaced faulty hardware component. Device functioning correctly.,2023-02-15T12:00:00Z,2023-02-24T12:00:00Z
+Frank Jones,Finance,Security,Suspected phishing email received,Critical,Resolved,Remote session held; settings corrected and user confirmed fix.,2024-04-13T07:00:00Z,2024-04-18T07:00:00Z
+Jack Moore,IT,Access & Permissions,Missing permissions on project folder,High,In Progress,,2024-04-29T11:00:00Z,2024-04-29T16:00:00Z
+Uma Thomas,Marketing,Email & Communication,Shared mailbox not showing in Outlook,Medium,Resolved,Account permissions updated by domain admin. Access confirmed.,2023-05-08T12:00:00Z,2023-05-15T12:00:00Z
+Wendy Lee,Engineering,Printer,Unable to add network printer,Medium,Open,,2024-06-15T11:00:00Z,2024-06-15T22:00:00Z
+Frank Anderson,Legal,Software,Excel formula returning #REF! error,Medium,Closed,Escalated to vendor support; patch applied. Issue closed.,2023-04-16T08:00:00Z,2023-04-22T08:00:00Z
+Frank Martin,Operations,Email & Communication,Shared mailbox not showing in Outlook,Medium,Resolved,User training session scheduled and completed.,2024-04-02T07:00:00Z,2024-04-14T07:00:00Z
+Bob Williams,Sales,Printer,Paper jam sensor triggered with no jam,Medium,Closed,Escalated to vendor support; patch applied. Issue closed.,2024-01-08T15:00:00Z,2024-01-21T15:00:00Z
+Zach Martin,Finance,Hardware,Laptop screen flickering intermittently,Low,Resolved,User training session scheduled and completed.,2023-05-10T08:00:00Z,2023-05-14T08:00:00Z
+Tina Jones,Sales,VPN & Remote Access,VPN certificate expired notification,Medium,Resolved,User training session scheduled and completed.,2024-01-15T12:00:00Z,2024-01-23T12:00:00Z
+Uma Wilson,HR,Network,VPN drops connection every 20 minutes,Medium,In Progress,,2023-04-27T07:00:00Z,2023-04-28T07:00:00Z
+Ivy Wilson,Engineering,Other,Coffee machine Wi-Fi still connected to old network,Medium,Resolved,Escalated to vendor support; patch applied. Issue closed.,2023-08-08T16:00:00Z,2023-08-13T16:00:00Z
+Olivia Garcia,Engineering,Access & Permissions,User cannot log in to HR portal,Low,Closed,Replaced faulty hardware component. Device functioning correctly.,2023-03-31T17:00:00Z,2023-04-14T17:00:00Z
+Jack Garcia,Sales,Software,Adobe Acrobat freezes when printing,Medium,In Progress,,2024-01-06T15:00:00Z,2024-01-07T20:00:00Z
+Paul Smith,HR,Access & Permissions,Account locked after failed login attempts,High,Open,,2024-07-21T16:00:00Z,2024-07-23T16:00:00Z
+Carol Anderson,Engineering,Other,Coffee machine Wi-Fi still connected to old network,Low,Closed,User training session scheduled and completed.,2024-05-05T15:00:00Z,2024-05-12T15:00:00Z
+Carol Martin,Legal,Software,Outlook stuck in offline mode,Low,In Progress,,2024-11-27T15:00:00Z,2024-11-29T12:00:00Z
+Eva Jackson,Finance,Other,Ergonomic chair request,High,Open,,2023-02-26T08:00:00Z,2023-03-01T03:00:00Z
+Wendy Davis,Finance,Email & Communication,Shared mailbox not showing in Outlook,Low,In Progress,,2024-06-15T11:00:00Z,2024-06-15T22:00:00Z
+Eva Anderson,Operations,Access & Permissions,Missing permissions on project folder,High,Resolved,Escalated to vendor support; patch applied. Issue closed.,2024-06-30T08:00:00Z,2024-07-09T08:00:00Z
+Tina Thomas,Finance,Network,Ping timeouts to internal server,Low,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-02-12T07:00:00Z,2023-02-14T07:00:00Z
+Uma Smith,Operations,Access & Permissions,User cannot log in to HR portal,High,In Progress,,2024-10-04T15:00:00Z,2024-10-06T05:00:00Z
+Mia Anderson,Operations,Security,Unauthorised login attempt notification,Medium,Closed,Remote session held; settings corrected and user confirmed fix.,2023-03-16T18:00:00Z,2023-03-17T18:00:00Z
+Tina Jones,Engineering,Printer,Unable to add network printer,Medium,Open,,2023-11-23T18:00:00Z,2023-11-25T15:00:00Z
+David Thomas,Legal,Network,VPN drops connection every 20 minutes,High,Resolved,Account permissions updated by domain admin. Access confirmed.,2024-04-22T08:00:00Z,2024-04-27T08:00:00Z
+Mia Jackson,Marketing,Network,VPN drops connection every 20 minutes,Low,In Progress,,2023-06-13T12:00:00Z,2023-06-15T05:00:00Z
+Paul Anderson,Marketing,Network,Cannot access shared network drives,Medium,Resolved,Configuration restored from backup. System verified stable.,2023-01-24T08:00:00Z,2023-01-31T08:00:00Z
+Bob Anderson,Engineering,Access & Permissions,User cannot log in to HR portal,Medium,In Progress,,2024-09-03T17:00:00Z,2024-09-06T06:00:00Z
+Eva Wilson,Operations,Other,Standing desk controller unresponsive,Low,Open,,2024-02-17T12:00:00Z,2024-02-17T18:00:00Z
+Rachel Anderson,Legal,Hardware,Laptop screen flickering intermittently,Medium,Open,,2024-01-31T15:00:00Z,2024-02-03T01:00:00Z
+Leo Thomas,Operations,Software,Application fails to launch after update,Low,Open,,2024-01-10T09:00:00Z,2024-01-11T11:00:00Z
+Wendy Thomas,Legal,Other,Coffee machine Wi-Fi still connected to old network,Low,Open,,2024-06-15T14:00:00Z,2024-06-16T10:00:00Z
+Mia Anderson,Finance,VPN & Remote Access,Cannot access internal wiki from home,Critical,In Progress,,2023-12-11T15:00:00Z,2023-12-14T09:00:00Z
+Karen Brown,Engineering,Email & Communication,Out-of-office not activating,Medium,Open,,2024-08-20T11:00:00Z,2024-08-20T15:00:00Z
+Yara Davis,Engineering,Email & Communication,Emails not syncing on mobile device,Critical,Resolved,Configuration restored from backup. System verified stable.,2024-08-20T14:00:00Z,2024-08-23T14:00:00Z
+Sam Brown,Legal,Network,VPN drops connection every 20 minutes,High,Open,,2023-01-20T14:00:00Z,2023-01-22T07:00:00Z
+Quinn Lee,Legal,Network,Unable to connect to company WiFi,Medium,Open,,2023-05-22T15:00:00Z,2023-05-23T18:00:00Z
+Frank Martin,Sales,Security,USB drive blocked by security policy,Medium,In Progress,,2023-12-17T15:00:00Z,2023-12-19T13:00:00Z
+Rachel Anderson,Operations,Security,Laptop reported as lost — remote wipe needed,Low,Open,,2023-11-01T11:00:00Z,2023-11-02T14:00:00Z
+Zach Wilson,Engineering,VPN & Remote Access,Two-factor authentication not prompting,Medium,Resolved,Configuration restored from backup. System verified stable.,2023-05-05T16:00:00Z,2023-05-16T16:00:00Z
+Zach Jones,Legal,Printer,Unable to add network printer,High,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-02-13T11:00:00Z,2023-02-25T11:00:00Z
+Grace Miller,Sales,Security,USB drive blocked by security policy,High,Resolved,Replaced faulty hardware component. Device functioning correctly.,2023-10-05T15:00:00Z,2023-10-17T15:00:00Z
+Hal Johnson,Finance,Software,Application fails to launch after update,High,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-08-20T17:00:00Z,2023-08-24T17:00:00Z
+Victor Jones,HR,Printer,Printer showing offline in queue,Medium,Resolved,Escalated to vendor support; patch applied. Issue closed.,2024-07-17T09:00:00Z,2024-07-24T09:00:00Z
+Jack Thomas,Engineering,Security,Antivirus definition update failing,High,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-10-23T07:00:00Z,2024-11-05T07:00:00Z
+Bob Garcia,Marketing,Other,Coffee machine Wi-Fi still connected to old network,High,Closed,Account permissions updated by domain admin. Access confirmed.,2023-06-30T07:00:00Z,2023-07-14T07:00:00Z
+Jack Johnson,Engineering,Network,Unable to connect to company WiFi,Critical,Closed,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-11-02T16:00:00Z,2023-11-12T16:00:00Z
+Quinn Lee,Sales,Email & Communication,Calendar invites not sending to external recipients,Medium,Resolved,Remote session held; settings corrected and user confirmed fix.,2024-05-31T14:00:00Z,2024-06-05T14:00:00Z
+Ivy Garcia,HR,VPN & Remote Access,Cisco AnyConnect fails authentication,Low,Resolved,Escalated to vendor support; patch applied. Issue closed.,2023-12-12T11:00:00Z,2023-12-22T11:00:00Z
+Mia Jackson,Marketing,Network,Ping timeouts to internal server,High,Resolved,Escalated to vendor support; patch applied. Issue closed.,2023-12-02T08:00:00Z,2023-12-09T08:00:00Z
+Hal Smith,HR,Network,Slow internet speed on wired connection,Critical,Resolved,User training session scheduled and completed.,2024-01-28T10:00:00Z,2024-02-05T10:00:00Z
+Alice Wilson,Operations,VPN & Remote Access,Two-factor authentication not prompting,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2023-08-30T07:00:00Z,2023-09-10T07:00:00Z
+Wendy Anderson,Engineering,Email & Communication,Emails not syncing on mobile device,Low,Resolved,Configuration restored from backup. System verified stable.,2024-10-16T11:00:00Z,2024-10-22T11:00:00Z
+Olivia Taylor,Marketing,Access & Permissions,User cannot log in to HR portal,Critical,Resolved,Configuration restored from backup. System verified stable.,2024-07-16T14:00:00Z,2024-07-29T14:00:00Z
+Zach Williams,Marketing,Access & Permissions,Missing permissions on project folder,High,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-04-02T15:00:00Z,2024-04-14T15:00:00Z
+Quinn Miller,HR,Software,Application fails to launch after update,Low,Resolved,Replaced faulty hardware component. Device functioning correctly.,2024-07-03T09:00:00Z,2024-07-06T09:00:00Z
+Paul Williams,Engineering,Software,Application fails to launch after update,High,Resolved,Remote session held; settings corrected and user confirmed fix.,2024-04-01T07:00:00Z,2024-04-09T07:00:00Z
+Victor Anderson,Legal,Security,Suspected phishing email received,Medium,Resolved,Issue was reproduced; driver updated and system restarted. Confirmed resolved.,2024-02-10T11:00:00Z,2024-02-24T11:00:00Z

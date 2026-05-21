@@ -1,0 +1,239 @@
+/* ============================================================
+   Analytics.css — styles for Analytics, Reports pages
+   ============================================================ */
+
+/* ------ Page layout ---------------------------------------- */
+.analytics-page {
+  padding: 28px 32px;
+  max-width: 1400px;
+}
+
+.analytics-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.analytics-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e1b4b;
+  margin: 0 0 4px;
+}
+
+.analytics-header p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* ------ Controls ------------------------------------------- */
+.analytics-controls {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.analytics-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.analytics-controls select {
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn-refresh {
+  padding: 8px 18px;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-refresh:hover:not(:disabled) { background: #4f46e5; }
+.btn-refresh:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ------ Error / loading ------------------------------------ */
+.analytics-error {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #b91c1c;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.analytics-loading {
+  text-align: center;
+  color: #9ca3af;
+  padding: 60px 0;
+  font-size: 1rem;
+}
+
+/* ------ KPI strip ------------------------------------------ */
+.kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.kpi-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px 18px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+  border-left: 4px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.kpi-card.accent-yellow { border-left-color: #f59e0b; }
+.kpi-card.accent-blue   { border-left-color: #3b82f6; }
+.kpi-card.accent-green  { border-left-color: #10b981; }
+.kpi-card.accent-purple { border-left-color: #8b5cf6; }
+.kpi-card.accent-red    { border-left-color: #ef4444; }
+
+.kpi-value {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  line-height: 1;
+}
+
+.kpi-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.kpi-sub {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+/* ------ Charts grid ---------------------------------------- */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.chart-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 22px 20px 18px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+
+.chart-card h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #374151;
+  margin: 0 0 16px;
+}
+
+.chart-wide {
+  grid-column: 1 / -1;
+}
+
+/* ------ Reports sections ----------------------------------- */
+.reports-section {
+  margin-bottom: 36px;
+}
+
+.reports-section h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1e1b4b;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+
+.reports-table th {
+  background: #f9fafb;
+  color: #374151;
+  font-weight: 700;
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+
+.reports-table td {
+  padding: 10px 14px;
+  border-top: 1px solid #f3f4f6;
+  color: #374151;
+  vertical-align: middle;
+}
+
+.reports-table tr:hover td { background: #f9fafb; }
+
+.filename-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.no-data {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  padding: 24px 0;
+}
+
+/* ------ Badges --------------------------------------------- */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.badge-green  { background: #d1fae5; color: #065f46; }
+.badge-red    { background: #fee2e2; color: #991b1b; }
+.badge-yellow { background: #fef3c7; color: #92400e; }
+
+/* ------ Responsive ----------------------------------------- */
+@media (max-width: 900px) {
+  .analytics-page { padding: 16px; }
+  .charts-grid { grid-template-columns: 1fr; }
+  .chart-wide { grid-column: auto; }
+  .kpi-strip { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+}

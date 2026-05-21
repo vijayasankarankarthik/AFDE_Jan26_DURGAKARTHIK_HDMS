@@ -12,6 +12,12 @@ const navItems = [
   { to: '/tickets/new', icon: '➕', label: 'New Ticket' },
 ];
 
+const analyticsItems = [
+  { to: '/analytics', icon: '📈', label: 'Analytics' },
+  { to: '/upload',    icon: '⬆',  label: 'Import CSV' },
+  { to: '/reports',   icon: '📋', label: 'Reports' },
+];
+
 function Sidebar() {
   const location = useLocation();
 
@@ -45,7 +51,19 @@ function Sidebar() {
           </NavLink>
         ))}
 
-        <span className="sidebar-section-label" style={{ marginTop: '20px' }}>System</span>
+        <span className="sidebar-section-label" style={{ marginTop: '20px' }}>Analytics</span>
+        {analyticsItems.map((item) => (
+          <NavLink
+            key={item.to}
+            to={item.to}
+            className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
+          >
+            <span className="nav-icon">{item.icon}</span>
+            {item.label}
+          </NavLink>
+        ))}
+
+        <span className="sidebar-section-label" style={{ marginTop: '8px' }}>System</span>
         <a
           href="/docs"
           target="_blank"
@@ -59,7 +77,7 @@ function Sidebar() {
 
       {/* Footer */}
       <div className="sidebar-footer">
-        <div className="sidebar-version">v1.0.0 · Phase 1</div>
+        <div className="sidebar-version">v2.0.0 · Phase 2</div>
       </div>
     </aside>
   );

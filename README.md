@@ -197,7 +197,10 @@ source venv/bin/activate          # Linux/macOS
 venv\Scripts\activate             # Windows
 
 # Install dependencies
-pip install -r requirements.txt
+# IMPORTANT: always use the venv pip explicitly to avoid
+# installing into the system/user site-packages by mistake
+venv/bin/pip install -r requirements.txt   # Linux/macOS
+venv\Scripts\pip install -r requirements.txt  # Windows
 
 # Configure environment
 cp .env.example .env
@@ -212,7 +215,9 @@ ALLOWED_ORIGINS=http://localhost:3000
 
 ```bash
 # Start the backend server
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+# Use the venv Python directly — uvicorn may not be on PATH
+venv/bin/python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000   # Linux/macOS
+venv\Scripts\python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000  # Windows
 ```
 
 The API will be available at:
@@ -222,6 +227,11 @@ The API will be available at:
 - **Health check:** http://localhost:8000/health
 
 > **Note:** The backend automatically creates database tables on startup using SQLAlchemy's `create_all()`. If you ran `init.sql` manually, the tables already exist and this is a no-op.
+
+> **Phase 2 note:** After the backend is running, apply the reporting schema once:
+> ```bash
+> psql -U postgres -d helpdesk_db -f database/reporting_schema.sql
+> ```
 
 ---
 
@@ -348,8 +358,9 @@ Place screenshot files in the `screenshots/` directory and update the links belo
 - Confirm the `helpdesk_db` database exists in pgAdmin
 
 ### Backend: `ModuleNotFoundError`
-- Ensure your virtual environment is activated: `source venv/bin/activate`
-- Re-run: `pip install -r requirements.txt`
+- Ensure you are using the venv Python: `venv/bin/python` (Linux/macOS) or `venv\Scripts\python` (Windows)
+- Re-run: `venv/bin/pip install -r requirements.txt`
+- Do **not** use the system `pip` — it may install packages outside the venv
 
 ### Frontend: `Network Error` on API calls
 - Ensure the backend is running on port 8000
@@ -374,11 +385,22 @@ lsof -ti:3000 | xargs kill -9
 ## 🧑‍💻 Development Commands
 
 ```bash
-# Backend — run with hot reload
-cd backend && uvicorn main:app --reload
+# Backend — run with hot reload (Linux/macOS)
+cd backend && venv/bin/python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+# Backend — run with hot reload (Windows)
+cd backend && venv\Scripts\python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+# Backend — install / update dependencies
+cd backend && venv/bin/pip install -r requirements.txt   # Linux/macOS
+cd backend && venv\Scripts\pip install -r requirements.txt  # Windows
 
 # Backend — run tests
-cd backend && pytest
+cd backend && venv/bin/pytest   # Linux/macOS
+cd backend && venv\Scripts\pytest  # Windows
+
+# Frontend — install dependencies
+cd frontend && npm install
 
 # Frontend — development server
 cd frontend && npm start
@@ -388,6 +410,9 @@ cd frontend && npm run build
 
 # Database — connect via psql
 psql -U postgres -d helpdesk_db
+
+# Database — run reporting schema (Phase 2)
+psql -U postgres -d helpdesk_db -f database/reporting_schema.sql
 ```
 
 ---

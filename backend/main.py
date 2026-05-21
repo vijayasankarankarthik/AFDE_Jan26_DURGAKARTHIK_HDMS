@@ -21,6 +21,8 @@ from fastapi.responses import JSONResponse
 from config import get_settings
 from database import create_tables
 from routers import tickets
+from routers import analytics as analytics_router
+from routers import uploads as uploads_router
 
 # ─── Logging setup ─────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -96,6 +98,8 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 # ─── Routers ───────────────────────────────────────────────────────────────────
 app.include_router(tickets.router, prefix="/api", tags=["Tickets"])
+app.include_router(analytics_router.router, prefix="/api")
+app.include_router(uploads_router.router, prefix="/api")
 
 
 # ─── Health check ──────────────────────────────────────────────────────────────
